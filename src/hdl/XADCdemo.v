@@ -33,8 +33,6 @@ module XADCdemo(
     input vauxn3,
     input vauxp4,
     input vauxn4,
-    input vauxp5,
-    input vauxn5,
     input vauxp8,
     input vauxn8,
     input vauxp10,
@@ -83,10 +81,8 @@ module XADCdemo(
         .vauxn2(vauxn2),         // input wire vauxn2
         .vauxp3(vauxp3),         // input wire vauxp3
         .vauxn3(vauxn3),         // input wire vauxn3
-        .vauxp4(vauxp4),         // input wire vauxp3
-        .vauxn4(vauxn4),         // input wire vauxn3
-        .vauxp5(vauxp5),         // input wire vauxp5
-        .vauxn5(vauxn5),         // input wire vauxn5
+        .vauxp4(vauxp4),         // input wire vauxp4
+        .vauxn4(vauxn4),         // input wire vauxn4
         .vauxp8(vauxp8),         // input wire vauxp8
         .vauxn8(vauxn8),         // input wire vauxn8
         .vauxp10(vauxp10),       // input wire vauxp10
